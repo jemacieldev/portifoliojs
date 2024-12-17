@@ -1,7 +1,48 @@
+import Projeto from "../../components/Projeto";
+
+import { Lista } from "./styles";
+
 const Projetos = () => (
   <section>
     <h1 style={{ fontSize: 16 }}>Projetos</h1>
-    <p>1 2</p>
+    <Lista>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+      <li>
+        <Projeto />
+      </li>
+    </Lista>
   </section>
 );
 
